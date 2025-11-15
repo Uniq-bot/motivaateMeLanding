@@ -16,10 +16,10 @@ const MiniAbout = () => {
     }
   ]
   return (
-    <div className='bg-[#1E2B4C] grid grid-cols-3 items-center  w-full h-60'> 
+    <div className='bg-[#1E2B4C] grid grid-cols-3 font-bold items-center  w-full h-60'> 
             {
               dummyData.map((data, index)=>(
-                 <div key={index} className='w-full h-full flex flex-col items-center justify-center text-white text-5xl font-bold'>
+                 <div key={index} className='w-full h-full flex flex-col items-center justify-center text-white text-5xl '>
                    <span>
                     {data.number===100 || data.number=== 350?data.number + '+': data.number===4.7?data.number+'⭐': data.number}
                   </span>
