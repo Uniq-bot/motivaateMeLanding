@@ -1,8 +1,8 @@
 import React from 'react'
-import Hero from '../components/Hero'
-import MiniAbout from '../components/MiniAbout'
-import Why from '../components/Why'
-import MotivationalQuote from '../components/MotivationalQuote'
+import Hero from '../components/home/Hero'
+import MiniAbout from '../components/home/MiniAbout'
+import Why from '../components/home/Why'
+import MotivationalQuote from '../components/home/MotivationalQuote'
 
 const Home = () => {
   return (

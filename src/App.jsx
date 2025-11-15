@@ -1,9 +1,9 @@
 import React from 'react'
-import Nav from './components/nav'
+import Nav from './common/nav'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import Home from './pages/Home'
 import Idea from './pages/Idea'
-import Footer from './components/Footer'
+import Footer from './common/Footer'
 
 const App = () => {
   return (
