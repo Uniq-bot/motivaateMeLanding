@@ -17,7 +17,7 @@ const Nav = () => {
         navigate:'/contact'
     }]
   return (
-    <div className='flex  top-0 z-50 gap-115 text-white h-25 w-full items-center py-3 px-10'>
+    <div className='flex  top-0 z-50 gap-105 text-white h-25 w-full items-center py-3 px-10'>
         <div className='w-15 h-15 rounded-full overflow-hidden'>
             <img src='/image.png' alt='logo' className='w-full h-full' />
         </div>
