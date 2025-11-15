@@ -2,8 +2,8 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <div className="text-white flex font-mono leading-none items-center justify-center h-180 w-full bg-gray-900">
-      <div className="w-full h-full  flex items-center justify-center flex-col">
+    <div className="text-white flex font-mono leading-none items-center justify-center h-150 w-full bg-gray-900">
+      <div className="w-full h-full mb-20  flex items-center justify-center flex-col">
         <h1 className="text-[5rem] font-bold tracking-[-5px]">
           Unlock Your Daily{" "}
           <span className="text-[#3C63CC] font-stretch-extra-condensed">

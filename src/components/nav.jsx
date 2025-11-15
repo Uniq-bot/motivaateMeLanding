@@ -17,14 +17,14 @@ const Nav = () => {
         navigate:'/contact'
     }]
   return (
-    <div className='flex fixed top-0 z-50 gap-125 text-white h-25 w-full items-center py-3 px-10'>
+    <div className='flex  top-0 z-50 gap-115 text-white h-25 w-full items-center py-3 px-10'>
         <div className='w-15 h-15 rounded-full overflow-hidden'>
             <img src='/image.png' alt='logo' className='w-full h-full' />
         </div>
-        <div className='flex w-100 bg-white/40 justify-between px-5 py-3 rounded-full list-none gap-5'>
+        <div className='flex w-130 bg-white/40 justify-between px-5 py-4 rounded-full list-none gap-5'>
             {navItem.map((item, index)=>{
                 return(
-                    <li onClick={()=>navigate(`${item.navigate}`)} className='uppercase font-mono leading-none hover:cursor-pointer hover:text-gray-200 transition-all' key={index}>{item.item}</li>
+                    <li onClick={()=>navigate(`${item.navigate}`)} className='uppercase text-[20px] font-mono leading-none hover:cursor-pointer hover:text-gray-200 transition-all' key={index}>{item.item}</li>
                 )
             })}
         </div>
