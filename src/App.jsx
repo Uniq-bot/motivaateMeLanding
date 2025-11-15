@@ -8,7 +8,7 @@ const App = () => {
   return (
     <div className='w-full min-h-screen bg-gray-900'>
         <BrowserRouter>
-        <Nav/>
+        <Nav />
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/idea' element={<Idea />} />
