@@ -2,7 +2,7 @@ const How = () => {
     return ( 
         <div className="grid grid-cols-1 py-10 lg:grid-cols-3 gap-12 lg:gap-20 items-center mt-20 bg-[#2A458C] px-6 lg:px-0">
             <div className="col-span-1 lg:col-span-2 lg:pl-20 py-12 lg:py-14 text-white">
-                <h1 className="text-6xl lg:text-6xl font-bold mb-8 tracking-tight">
+                <h1 className="text-6xl lg:text-6x  l font-bold mb-8 tracking-tight">
                     How it works?
                 </h1>
                 <div className="space-y-4 text-base lg:text-lg xl:text-xl">

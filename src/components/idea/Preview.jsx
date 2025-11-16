@@ -1,4 +1,7 @@
+import { useNavigate } from "react-router-dom";
+
 const Preview = () => {
+    const navigate=useNavigate()
     return (
         <div className="bg-white py-16 lg:py-16">
             <div className="max-w-7xl mx-auto px-6 lg:px-12">
@@ -21,7 +24,7 @@ const Preview = () => {
                         />
                     </div>
                     <div className="flex justify-center items-center">
-                        <button className="text-white bg-[#1E2B4C] hover:bg-[#2A3A5C] font-semibold text-lg lg:text-xl px-8 py-4 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105">
+                        <button onClick={()=>navigate('http://motivat3me.surge.sh/')} className="text-white bg-[#1E2B4C] hover:bg-[#2A3A5C] font-semibold text-lg lg:text-xl px-8 py-4 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105">
                             Let's get started!
                         </button>
                     </div>
